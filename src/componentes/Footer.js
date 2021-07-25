@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
             </section>
             <div className="text-center p-4 footer">            
-                <a className="text-reset fw-bold" href="#">© 2021 Copyright - Eliezer Neris</a>
+                <a className="text-reset fw-bold" href="/">© 2021 Copyright - Eliezer Neris</a>
             </div>
         </footer>
         </>

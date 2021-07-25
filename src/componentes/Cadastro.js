@@ -82,9 +82,9 @@ const Cadastro = () => {
                                         <td>{dadosProdutos[id].descricao}</td>
                                         <td>{dadosProdutos[id].valor}</td>
                                         <td>
-                                            <a className="btn btn-primary" onClick={() => {setIdAtual(id)}}>
+                                            <button className="btn btn-primary" onClick={() => {setIdAtual(id)}}>
                                                 <i className="fas fa-pencil-alt"></i>
-                                            </a>
+                                            </button>
                                         </td>
                                     </tr>
                                 })
